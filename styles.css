@@ -2,9 +2,9 @@ body {font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif}
 .header{display:flex; background-color:darkgrey;}
 .main-menu{display:flex; font-size:16px;list-style-type: none; color:black;
     gap:20px; text-decoration:none; align-items:center;}
-    a:link { text-decoration: none; }
+    a:link { text-decoration: none; color:black; }
 a:visited { text-decoration: none; color:black;}
-a:active { text-decoration: none; }
+a:active { text-decoration: none; color:black; }
 .slides {width:100%;}
 .drop-button {font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   color: black; font-size: 16px; border: none; background-color:darkgrey}

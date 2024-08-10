@@ -1,3 +1,4 @@
+
 let slideIndex = 0;
 showSlides();
 
@@ -14,8 +15,7 @@ function showSlides() {
 
 function new_text()
 {document.getElementById ('naudinga').innerHTML="Dėkojame už jūsų nuomonę."}
-
-
+  
 
 
 
