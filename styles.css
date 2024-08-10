@@ -1,0 +1,85 @@
+body {font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif}
+.header{display:flex; background-color:darkgrey;}
+.main-menu{display:flex; font-size:16px;list-style-type: none; color:black;
+    gap:20px; text-decoration:none; align-items:center;}
+    a:link { text-decoration: none; }
+a:visited { text-decoration: none; color:black;}
+a:active { text-decoration: none; }
+.slides {width:100%;}
+.drop-button {font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: black; font-size: 16px; border: none; background-color:darkgrey}
+  .submenu {position: relative; display: inline-block;}
+  .submenu-cont { display: none;position: absolute;background-color: #f1f1f1;
+    min-width: 160px;box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);z-index: 1;}
+  .submenu-cont a{color: black;padding: 12px 16px;
+    text-decoration: none;display: block;}
+   .submenu-cont a:hover {background-color: #ddd;}
+   .submenu:hover .submenu-cont {display: block;}
+     .submenu:hover .drop-button {background-color:lightgrey;}
+.pagrindas {display:grid; grid-template-columns: 0.2fr 1fr 0.2fr ; 
+    grid-template-rows: repeat (3, auto);
+     background-color:rgb(244, 239, 239);
+     border:3px; border-color: bisque; text-align:center;}
+.slideshow-container {position: relative;}
+.mySlides {display: none; }
+.prev:hover, .next:hover {background-color: black;}
+.img {align-items:center; height:200px; width:100%; height:180px;}
+.antraste {grid-area:1/2/2/3;}
+.tekstas {grid-area:2/2/3/3;}
+.sukis {grid-area:3/2/4/3;}
+#form {margin-left:50px;margin-bottom:10px;}
+#name {padding:5px; width:156px;margin:5px;}
+.big-input {width:250px; height:100px;margin-top:5px;margin-left:6px;}
+#send {width:100px;margin-left:60px;}
+.footer {background-color:darkgrey;text-align:center;padding:5px; margin-top:10px;}
+.mind {margin-left:10px; margin-right:10px;}
+
+.recept{list-style-type: none; }
+.recept-cont {color:black;}
+a:hover {color:red;} 
+.recept-main{text-align:justify; margin-left:150px; margin-right:150px;}
+.recept{font-size:20px; }
+.main-vit{margin-left:150px; margin-right:150px; text-align:justify;}
+.container-vit {display:grid; grid-template-columns: 1fr; grid-template-rows: 1fr;}
+.img-vit{display:flex; justify-self:center;margin-top:20px;width:100%;}
+.svarbu{color:red;}
+#naudinga{margin-top:20px; margin-bottom:10px;}
+#taip {cursor:pointer;}
+#taip:hover{box-shadow: inset 10px 7px 15px 10px darkgrey;}
+#ne {cursor:pointer;}
+#ne:hover{box-shadow: inset 10px 7px 15px 10px darkgrey;}
+
+@media (max-width: 755px)
+{.vit-name {font-size: 22px; text-align:left;}
+.main-vit{margin-left:100px; margin-right:100px;}
+.vit-text {font-size: 12px;} 
+.img{height:130px;}
+.recept-main{margin-left:90px; margin-right:90px;}
+#naudinga{font-size:14px;}}
+
+@media (max-width: 500px)
+{.vit-name {font-size: 16px;}
+.main-vit{margin-left:50px; margin-right:50px;}
+.main-menu {font-size:12px;}
+.drop-button{font-size:12px;}
+.mind {font-size:12px;}
+.last {font-size:12px;}
+.img{height:70px;}
+.antraste{font-size:18px;}
+.tekstas{font-size:12px;}
+.sukis{font-size:16px;}
+.uzklausa{font-size:16px;}
+#form{font-size:14px;}
+.big-input {width:150px; height:70px;}
+#name{width:100px; height:12px;}
+#send{width:70px;}
+.recept-main{margin-left:50px; margin-right:50px;}
+.recept{font-size:14px;}
+#marinavimas {font-size:14px;}
+#saldymas {font-size:14px;}
+#dziovinti {font-size:14px;}
+#rauginimas {font-size:14px;}
+#terminis {font-size:14px;}
+.recept-text{font-size:12px;}
+.recept-ul{font-size:12px;}
+#naudinga{font-size:12px;}}
