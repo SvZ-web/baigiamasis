@@ -42,6 +42,7 @@ a:hover {color:red;}
 .main-vit{margin-left:150px; margin-right:150px; text-align:justify;}
 .container-vit {display:grid; grid-template-columns: 1fr; grid-template-rows: 1fr;}
 .img-vit{display:flex; justify-self:center;margin-top:20px;width:100%;}
+.vit-name{font-size:28px;}
 .svarbu{color:red;}
 #naudinga{margin-top:20px; margin-bottom:10px;}
 #taip {cursor:pointer;}
@@ -50,7 +51,7 @@ a:hover {color:red;}
 #ne:hover{box-shadow: inset 10px 7px 15px 10px darkgrey;}
 
 @media (max-width: 755px)
-{.vit-name {font-size: 22px; text-align:left;}
+{.vit-name {font-size: 18px; text-align:left;}
 .main-vit{margin-left:100px; margin-right:100px;}
 .vit-text {font-size: 12px;} 
 .img{height:130px;}
