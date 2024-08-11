@@ -24,7 +24,7 @@ a:active { text-decoration: none; color:black; }
 .mySlides {display: none; }
 .prev:hover, .next:hover {background-color: black;}
 .img {align-items:center; height:200px; width:100%; height:180px;}
-.antraste {grid-area:1/2/2/3;}
+#antraste {grid-area:1/2/2/3;}
 .tekstas {grid-area:2/2/3/3;}
 .sukis {grid-area:3/2/4/3;}
 #form {margin-left:50px;margin-bottom:10px;}
@@ -41,7 +41,7 @@ a:hover {color:red;}
 .recept{font-size:20px; }
 .main-vit{margin-left:150px; margin-right:150px; text-align:justify; line-height: 1.4;}
 .container-vit {display:grid; grid-template-columns: 1fr; grid-template-rows: 1fr;}
-.img-vit{display:flex; justify-self:center;margin-top:20px;width:100%;}
+.img-vit{display:flex; justify-self:center;margin-top:20px;width:70%;}
 .vit-name{font-size:28px;}
 .svarbu{color:red;}
 #naudinga{margin-top:20px; margin-bottom:10px;}
@@ -49,6 +49,7 @@ a:hover {color:red;}
 #taip:hover{box-shadow: inset 10px 7px 15px 10px darkgrey;}
 #ne {cursor:pointer;}
 #ne:hover{box-shadow: inset 10px 7px 15px 10px darkgrey;}
+
 
 @media (max-width: 755px)
 {.vit-name {font-size: 18px; text-align:left;}
@@ -66,7 +67,7 @@ a:hover {color:red;}
 .mind {font-size:12px;}
 .last {font-size:12px;}
 .img{height:70px;}
-.antraste{font-size:18px;}
+#antraste{font-size:18px;}
 .tekstas{font-size:12px;}
 .sukis{font-size:16px;}
 .uzklausa{font-size:16px;}
